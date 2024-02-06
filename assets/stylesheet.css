@@ -115,6 +115,10 @@ h1 {
     ul {
         display: inline;
     }
+    #Contact ul {
+        display: flex;
+        justify-content: right;
+    }
 } 
 
 footer {
