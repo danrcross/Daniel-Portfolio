@@ -112,8 +112,9 @@ h1 {
         display: block;
         width: 100%;
     }
-    ul {
-        display: inline;
+    #Contact ul {
+        display: flex;
+        justify-content: right;
     }
 } 
 
