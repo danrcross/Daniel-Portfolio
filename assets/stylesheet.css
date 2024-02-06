@@ -4,11 +4,6 @@
     color: black;
 }
 
-.section {
-    display: flex;
-    flex-wrap:wrap;
-}
-
 nav {
     justify-content: right;
 }
@@ -25,25 +20,103 @@ li {
     padding: 5px 20px;
 }
 
-.header {
-    width: 100%;
-    margin:0 auto;
+#About {
+    justify-content: right;
+    width: 50%;
+    max-width: 600px;
 }
 
+#About h2 {
+    text-align: right;
+}
+#About p {
+    text-align: left;
+}
+#header img {
+    max-height: 300px;
+    max-width:fit-content;
+
+}
+#header {
+    display: block;
+    width: 50%;
+}
+h1 {
+    display: block;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#prework img{
+    width: 100%;
+}
+.app-link:hover {
+    border: solid black 10px;
+}
+
+#pre-work img {
+    min-width: 400px;
+    width: 100%;
+}
+
+#mini-p img, #challenge1 img{
+    display: inline;
+    min-width: 100px;
+    max-width: 50%;
+}
+#pic-buddy {
+    display: flex;
+    justify-content: space-around;
+}
+ h4, #Contact li {
+    text-align: right;
+    padding: 0px;
+ }
+.app-link:hover {
+    display: flex;
+    border: solid black 5px;
+}
+#pic-buddy a {
+    display: flex;
+    justify-content: center;
+}
+#pic-buddy img {
+    display: flex;
+    justify-content: center;
+}
 @media screen and (max-width: 768px) {
-    * , nav, ul, li, .header {
+    * , nav, ul, li, #header {
         justify-content: center;
         text-align: center;
     }
+    #top {
+        display:block;
+        margin: auto;
+    }
+    #header {
+        display: block;
+        width: 100%;
+    }
+    .header {
+        justify-content: center;
+    }
+    #About {
+        width: 100%;
+        margin: auto;
+    }
+    #About h2{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    #Contact ul {
+        justify-content: right;
+    }
 } 
-/* leaving off here. I want nav bar to shrink and stay inline when window is smaller, rather than wrapping. 
- Don't forget to cite sources when you get help online. */
-/* @media screen and (max-width: 450px) {
-    li {
-        font-size:auto;
-        display: inline;
-    }
-    ul {
-        display: inline;
-    }
-} */
+
+footer {
+    text-align: center;
+}
