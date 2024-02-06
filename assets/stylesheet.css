@@ -120,7 +120,17 @@ h1 {
         display: flex;
         justify-content: right;
     }
-} 
+    nav {
+        display: block;
+    }
+ 
+    nav ul {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    }
+ 
 
 footer {
     text-align: center;
