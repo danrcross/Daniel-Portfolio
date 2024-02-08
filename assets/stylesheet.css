@@ -35,7 +35,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding: 35px 0px;
 
     #About {
         display: block;
@@ -68,28 +68,98 @@ nav{
  }
 
  #Applications {
-    h2 {
-        padding: 5px;
-        border-bottom: solid black 2px;
-        border-left: solid black 2px;
-        margin-bottom: 15px;
+        h2 {
+            padding: 5px;
+            border-bottom: solid black 2px;
+            border-left: solid black 2px;
+            margin-bottom: 15px;
+        }
+    #apps {
+
+        #first {
+            margin: 5px;
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                margin: 20px;
+                text-align: left;
+                font-style: italic;
+                display:block;
+                min-width: 400px;
+                width: 45%;
+
+            }
+
+            a{
+                display: block;
+                width: 50%;
+                align-items: center;
+
+                img {
+                    padding: 5px;
+                    border: solid black 2px;
+                    width: auto;
+                    max-width: 100%;
+
+                }
+            }
+        }
+
+        #later {
+            margin: 5px;
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: center;
+
+            p {
+                margin: 20px;
+                text-align: left;
+                font-style: italic;
+                display:block;
+                min-width: 400px;
+                width: 45%;
+
+            }
+
+            a{
+                display: block;
+                width: 30%;
+                align-items: center;
+                                
+                img {
+                    padding: 5px;
+                    border: solid black 2px;
+                    width: auto;
+                    max-width: 100%;
+
+                }
+            }
+        }
+
+
+
+            /* a::after {
+                content: "Prework Study Guide";
+                color: black;
+                border: solid black 2px;
+                background-color: white;
+                position: relative;
+                bottom: 1px;
+                right: 20px;
+
+            } */
+
+        }
     }
- }
-h1 {
-    display: block;
-}
 
-#prework img{
-    width: 100%;
-}
-.app-link:hover {
-    border: solid black 10px;
-}
 
-#pre-work img {
-    min-width: 400px;
-    width: 100%;
-}
+
 
 #mini-p img, #challenge1 img{
     display: inline;
@@ -105,7 +175,6 @@ h1 {
     padding: 0px;
  }
 .app-link:hover {
-    display: flex;
     border: solid black 5px;
 }
 #pic-buddy a {
