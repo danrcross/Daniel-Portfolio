@@ -89,7 +89,6 @@ nav{
                 text-align: left;
                 font-style: italic;
                 display:block;
-                min-width: 400px;
                 width: 45%;
 
             }
@@ -122,7 +121,7 @@ nav{
                 text-align: left;
                 font-style: italic;
                 display:block;
-                min-width: 400px;
+
                 width: 45%;
 
             }
@@ -142,54 +141,15 @@ nav{
             }
         }
 
-
-
-            /* a::after {
-                content: "Prework Study Guide";
-                color: black;
-                border: solid black 2px;
-                background-color: white;
-                position: relative;
-                bottom: 1px;
-                right: 20px;
-
-            } */
-
-        }
     }
-
-
-
-
-#mini-p img, #challenge1 img{
-    display: inline;
-    min-width: 100px;
-    max-width: 50%;
 }
-#pic-buddy {
-    display: flex;
-    justify-content: space-around;
-}
+
  h4, #Contact li {
     text-align: right;
     padding: 0px;
- }
-.app-link:hover {
-    border: solid black 5px;
-}
-#pic-buddy a {
-    display: flex;
-    justify-content: center;
-}
-#pic-buddy img {
-    display: flex;
-    justify-content: center;
+
 }
 @media screen and (max-width: 768px) {
-    * , #header {
-        justify-content: center;
-        text-align: center;
-    }
 
     nav ul{
         text-align: center;
@@ -232,6 +192,22 @@ nav{
 @media screen and (max-width: 622px) {
     #top {
         justify-content: center;
+    }
+
+    #Applications #apps {
+        #first{
+        justify-content: center;
+            p {
+                width: 100%;
+            }
+        }
+        #later {
+        justify-content: center;
+            p {
+                width: 100%;
+            }
+        }
+        
     }
 }
 
