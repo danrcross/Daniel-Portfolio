@@ -232,5 +232,6 @@ a:hover {
     }
     #top img {
         width:80vw;
+        height:auto;
     }
 }
