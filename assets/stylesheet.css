@@ -7,28 +7,30 @@
 body {
     margin: 0px 15px;
 }
-nav{
+nav {
     display:block;
     border-bottom: solid black 2px;
+}
 
-    ul{
-        padding: 15px;
-        text-align: right;
-        h1 {
-            font-size: 2em;
-            text-align: left;
-            padding-bottom: 5px;
-        }
+nav ul{
+    padding: 15px;
+    text-align: right;
+}
 
-        li{
-            padding:15px;
-            display: inline;
-        }
-        a:hover {
-            border-right: solid black 2px;
-            border-bottom: solid black 2px;
-        }
-    }   
+nav h1 {
+    font-size: 2em;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+nav li{
+    padding:15px;
+    display: inline;
+}
+
+a:hover {
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
 }
 
 #top {
@@ -36,113 +38,111 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 35px 0px;
-
-    #About {
-        display: block;
-        width: 50%;
-        max-width: 600px;
-        min-width: 350px;
-        text-align: left;
-        padding: 5px;
-          
-        h2 {
-            padding: 5px;
-            border-bottom: solid black 2px;
-            border-left: solid black 2px;
-            margin-bottom: 15px;
-        } 
-        
-        p {
-            text-align: left;
-        }
-    }   
-
-    #avatar img{
-        display: block;
-        padding:15px;
-        border: solid black 2px;
-        margin: 5px;
-        max-height: 300px;
-        max-width:fit-content;     
-    }
- }
-
- #Applications {
-        h2 {
-            padding: 5px;
-            border-bottom: solid black 2px;
-            border-left: solid black 2px;
-            margin-bottom: 15px;
-        }
-    #apps {
-
-        #first {
-            margin: 5px;
-            padding: 5px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-
-            p {
-                margin: 20px;
-                text-align: left;
-                font-style: italic;
-                display:block;
-                width: 45%;
-
-            }
-
-            a{
-                display: block;
-                width: 50%;
-                align-items: center;
-
-                img {
-                    padding: 5px;
-                    border: solid black 2px;
-                    width: auto;
-                    max-width: 100%;
-
-                }
-            }
-        }
-
-        #later {
-            margin: 5px;
-            padding: 5px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            align-items: center;
-
-            p {
-                margin: 20px;
-                text-align: left;
-                font-style: italic;
-                display:block;
-
-                width: 45%;
-
-            }
-
-            a{
-                display: block;
-                width: 30%;
-                align-items: center;
-                                
-                img {
-                    padding: 5px;
-                    border: solid black 2px;
-                    width: auto;
-                    max-width: 100%;
-
-                }
-            }
-        }
-
-    }
 }
+          
+#About h2 {
+    padding: 5px;
+    border-bottom: solid black 2px;
+    border-left: solid black 2px;
+    margin-bottom: 15px;
+} 
+        
+#About p {
+    text-align: left;
+    width: 45vw;
+    margin: 10px;
+}
+ 
+#avatar {
+    text-align: center;
+}
+#top img{
+    display: block;
+    padding:15px;
+    border: solid black 2px;
+    margin: 5px;
+    max-height: 300px;
+    max-width:fit-content;     
+}
+ 
+
+
+#Applications h2 {
+    padding: 5px;
+    border-bottom: solid black 2px;
+    border-left: solid black 2px;
+    margin-bottom: 15px;
+}
+
+
+#first {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#first p {
+    margin: 20px 10px;
+    text-align: left;
+    font-style: italic;
+    display:block;
+    width: 43%;
+
+}
+
+#first a{
+    display: block;
+    width: 50%;
+    align-items: center;
+}
+
+#first img {
+    padding: 5px;
+    border: solid black 2px;
+    width: auto;
+    max-width: 100%;
+
+}
+
+        
+
+#later {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#later p {
+    margin: 20px 10px;
+    text-align: left;
+    font-style: italic;
+    display:block;
+
+    width: 45%;
+
+}
+
+#later a{
+    display: block;
+    width: 30%;
+    align-items: center;
+}
+                                
+#later img {
+    padding: 5px;
+    border: solid black 2px;
+    width: auto;
+    max-width: 100%;
+
+}
+
+
 
  h4, #Contact li {
     text-align: right;
@@ -150,72 +150,87 @@ nav{
 
 }
 @media screen and (max-width: 768px) {
-
-    nav ul{
-        text-align: center;
-    }
-
     #header {
         display: block;
         width: 100%;
         text-align: center;
     }
 
-    #About {
-        min-width: none;
-        max-width: 350px;
-        width: 100%;
-        margin: auto;
-    }
-
-    #About h2{
-        text-align: center;
-        display: block;
-        width: 100%;
-    }
-
-    #Contact ul {
-        display: flex;
-        justify-content: right;
-    }
-    
-    #Contact ul {
-        display: flex;
-        justify-content: right;
-    }
-    
-    footer {
-    text-align: center;
-    }
-}
-
-@media screen and (max-width: 622px) {
     #top {
         justify-content: center;
     }
 
-    #Applications #apps {
-        #first{
-        justify-content: center;
-            p {
-                width: 100%;
-            }
-        }
-        #later {
-        justify-content: center;
-            p {
-                width: 100%;
-            }
-        }
+    #About {
+        width: 100%;
+    }
+    #About p {
+        width: 80vw;
+    }
+
+    #first p , #first a, #later p {
+        width: 100%;
+    }
+
+    #later p, #later a{
+        width: 45%;
+    }
+
+    #Contact ul {
+        display: flex;
+        justify-content: right;
+    }
+    
+    #Contact ul {
+        display: flex;
+        justify-content: right;
+    }
+
+    footer {
+        margin: 3vw;
         
     }
 }
+
+@media screen and (max-width: 622px) {
+    nav ul{
+        text-align: center;
+    }
+
+    #top {
+        justify-content: center;
+    }
+
+    .top p {
+        width: 100%;
+    }
+
+
+    #first{
+        justify-content: center;
+    }
+
+    p {
+        width: 100%;
+    }
+               
+}
+
 
 @media screen and (max-width: 400px) {
     nav ul {
         padding: 10px 5px;
     }
-    .shrink {
-        font-size: .85em;
+
+    nav li {
+        padding: 4.3vw;
+    }
+    #first p, #later p {
+        margin: 1vw;
+    }
+    * {
+        font-size: 3.5vw;
+    }
+    #top img {
+        width:80vw;
     }
 }
