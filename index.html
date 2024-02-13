@@ -3,22 +3,25 @@
     <head>
         <!--Borrowed following line of code from in-class activity 1, week 2-->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Stylesheet and reset.css included -->
         <link rel="stylesheet" href="assets/reset.css"/>
         <link rel="stylesheet" href="assets/stylesheet.css"/>
+        <title>Daniel Cross's Portfolio</title>
     </head>
 
     <body>
-        <nav class="section">
-
+        <!-- In nav, I will keep my name on first line as header, and have the 3 links positioned to the right. -->
+        <nav>
             <ul>
-                <h1 class="header">Daniel Cross</h1>
-                <li><a class ="shrink" href=#About>About Me</a></li>
-                <li><a class ="shrink" href=#Applications>Applications </a></li>
-                <li><a class ="shrink" href=#Contact>Contact Me</a></li>
+                <h1>Daniel Cross</h1>
+                <li><a href=#About>About Me</a></li>
+                <li><a href=#Applications>Applications </a></li>
+                <li><a href=#Contact>Contact Me</a></li>
             </ul>
         </nav>
+        <!-- This #top section includes a div about me, and an image of me. -->
         <section id="top">            
-            <div class="top" id="About">
+            <div id="About">
                 <h2>About Me</h2>
                 <p>I am a novice web developer. I am currently enrolled in an online web development bootcamp through the University of North Carolina at Chapel Hill. I am motivated by the satisfaction that this work brings: both as an individual, and in the role I could play in a community. Creating something useful for others gives me joy. 
                 <br/>
@@ -26,9 +29,10 @@
                     In my experience so far, coding involves a great deal of logical problem-solving tasks. I have always loved these kinds of puzzles. I am confident that I will be able to work through any challenge that I might meet in my coding career. Already, it has been a pleasure to get some webpages up and running, regardless of their simplicity. 
                 </p>
             </div>
-            <img alt="photo of Daniel Cross" class="header" src="assets/images/profile1.jpg" />
+            <img alt="photo of Daniel Cross" src="assets/images/profile1.jpg" />
         </section>
-        <section class= "section" id="Applications">
+        <!-- This section will display screenshots of my websites, with embedded links, titles, and descriptions. -->
+        <section id="Applications">
             <h2>Applications</h2>
             <div id="apps">
                 <div id="first">
@@ -45,13 +49,15 @@
                 </div>
             </div>
         </section>
+        <!-- This is a simple contact section, with my email given. -->
         <section id="Contact">
             <h4>Contact Me:</h4>
             <ul>
                 <li>danrcross@gmail.com</li>
             </ul>
         </section>
-        <footer class="section">
+        <!-- This footer sections credits me with making this website -->
+        <footer>
             <h6>Website made by &copy; Daniel Cross, 2024</h6>
         </footer>
     </body>

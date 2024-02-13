@@ -1,4 +1,4 @@
-# <Your-Project-Title>
+# Daniel Cross's Portfolio
 
 ## Description
 
@@ -24,11 +24,11 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+This website has a couple of notable features. This site uses responsive design, and will adapt to smaller screens and mobile devices. Also: when viewing the "Applications" section, the border a site image will become red when the pointer hovers over an image. See this represented in the following screenshots:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![Full page](assets/screenshots/fullpage.png)
+![Mobile](assets/screenshots/mobile.png)
+![Hover](assets/screenshots/hover.png)
 
 ## Credits
 
